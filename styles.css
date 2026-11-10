@@ -23,3 +23,97 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =================================
+   SECCION DE PAGOS EN LINEA
+================================= */
+
+.payments {
+  background: #f6f8f4;
+}
+
+.payment-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.payment-card {
+  background: #ffffff;
+  border: 1px solid #e3eae4;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 12px 35px rgba(16, 46, 41, .06);
+}
+
+.payment-icon {
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+.payment-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #183d35;
+}
+
+.payment-card p {
+  color: #65736d;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.payment-pse {
+  border-top: 5px solid #2465ad;
+}
+
+.payment-fiduciaria {
+  border-top: 5px solid #00994a;
+}
+
+.bank-details {
+  margin-top: 22px;
+  border: 1px solid #dce5df;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.bank-details summary {
+  cursor: pointer;
+  color: #1762a5;
+  font-weight: 700;
+}
+
+.bank-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.bank-list span {
+  background: #eef4f8;
+  color: #244b68;
+  border-radius: 8px;
+  padding: 12px 8px;
+  text-align: center;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.payment-notice {
+  font-size: .78rem;
+  margin: 18px 0 0 !important;
+}
+
+@media (max-width: 700px) {
+  .payment-options {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-card {
+    padding: 24px;
+  }
+}
