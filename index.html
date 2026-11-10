@@ -14,8 +14,7 @@
  <a class="brand" href="#inicio"><img src="assets/logo-pinotres.jpg" alt="PINOTRÉS Constructora"></a>
  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
  <nav class="nav">
-  <a href="#nosotros">Nosotros</a><a href="#proyectos">Proyectos</a><a href="#altezza">ALTEZZA</a><a href="#blog">Blog VIS</a><a href="#opiniones">Opiniones</a><a href="#contacto" class="nav-cta">Hablemos</a>
- </nav>
+  <a href="#nosotros">Nosotros</a><a href="#proyectos">Proyectos</a><a href="#altezza">ALTEZZA</a><a href="#blog">Blog VIS</a><a href="#pagos">Pagos en línea</a><a href="#opiniones">Opiniones</a><a href="#contacto" class="nav-cta">Hablemos</a>
 </header>
 <main>
 <section class="hero" id="inicio">
@@ -82,7 +81,55 @@
  </div></div>
  <p class="legal-note">PINOTRÉS CONSTRUCTORA comparte este contenido con fines informativos. No representa aprobación, intermediación ni garantía de subsidios o créditos. La disponibilidad, requisitos, montos y condiciones deben confirmarse con cada entidad en sus canales oficiales. Los nombres y marcas pertenecen a sus respectivos titulares.</p>
 </section>
-<section class="opinions section" id="opiniones"><div class="section-head"><div><span class="eyebrow">VOCES Y EXPERIENCIAS</span><h2>Queremos <span>escucharte.</span></h2></div><p>Comparte tu experiencia o déjanos una pregunta. Los comentarios enviados quedarán visibles en este navegador como demostración hasta conectar un servicio de publicación.</p></div>
+
+<section class="payments section" id="pagos">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">CANALES DE RECAUDO</span>
+      <h2>Pagos en <span>línea.</span></h2>
+    </div>
+    <p>En PINOTRÉS facilitamos tus procesos de pago. Selecciona el canal que deseas consultar.</p>
+  </div>
+
+  <div class="payment-options">
+    <article class="payment-card payment-pse">
+      <div class="payment-icon">🏦</div>
+      <span class="eyebrow">PAGO ELECTRÓNICO</span>
+      <h3>Paga por PSE</h3>
+      <p>Consulta las entidades financieras disponibles en esta demostración interactiva.</p>
+
+      <details class="bank-details">
+        <summary>Explorar entidades bancarias ↗</summary>
+        <div class="bank-list">
+          <span>Nequi</span>
+          <span>Daviplata</span>
+          <span>BBVA</span>
+          <span>Bancolombia</span>
+          <span>Banco de Bogotá</span>
+          <span>AV Villas</span>
+          <span>Santander</span>
+          <span>Otros bancos</span>
+        </div>
+        <p class="payment-notice">Demostración académica. No procesa transacciones ni realiza pagos reales.</p>
+      </details>
+    </article>
+
+    <article class="payment-card payment-fiduciaria">
+      <div class="payment-icon">🛡️</div>
+      <span class="eyebrow">PAGO POR FIDUCIARIA</span>
+      <h3>Alianza Fiduciaria</h3>
+      <p>Accede al portal de recaudos de Alianza para consultar su plataforma de pagos.</p>
+      <a class="btn btn-green"
+         href="https://www.alianzaenlinea.com.co/recaudos/login"
+         target="_blank" rel="noopener">
+        Ir a la fiduciaria ↗
+      </a>
+    </article>
+  </div>
+
+  <p class="legal-note">La opción PSE es una simulación académica y no está conectada a una pasarela de pagos.</p>
+</section>
+  <section class="opinions section" id="opiniones"><div class="section-head"><div><span class="eyebrow">VOCES Y EXPERIENCIAS</span><h2>Queremos <span>escucharte.</span></h2></div><p>Comparte tu experiencia o déjanos una pregunta. Los comentarios enviados quedarán visibles en este navegador como demostración hasta conectar un servicio de publicación.</p></div>
  <div class="opinion-layout"><div class="quote-card"><div class="quote-mark">“</div><h3>Tu opinión nos ayuda a construir mejores experiencias.</h3><p>¿Visitaste la sala de ventas o conociste ALTEZZA? Cuéntanos qué te pareció.</p></div>
  <form id="commentForm" class="comment-form"><label>Tu nombre<input required name="name" maxlength="60" placeholder="Nombre"></label><label>Tu opinión<textarea required name="comment" maxlength="500" rows="4" placeholder="Escribe aquí tu comentario..."></textarea></label><button class="btn btn-green" type="submit">Enviar opinión</button><p class="form-message" id="formMessage" aria-live="polite"></p></form></div><div class="comments" id="comments"></div>
 </section>
